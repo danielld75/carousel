@@ -1,0 +1,78 @@
+.wrap {
+  background-color: #06d3ff;
+  height: 50vh;
+  padding-top: 40px;
+}
+
+.carousel {
+  position: relative;
+  margin: 0 auto;
+  width: 430px;
+  height: 297px;
+  overflow: hidden;
+  border: 15px solid white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 2000px;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  width: 400px;
+}
+
+.drivers {
+  position: absolute;
+  display: flex;
+  height: 267px;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftRow {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  margin-top: -20px;
+  transition: all 0.3s;
+}
+
+.leftRow > strong {
+  text-align: center;
+}
+
+.leftRow:hover {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.rightRow {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  margin-top: -20px;
+  transition: all 0.3s;
+}
+
+.rightRow:hover {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.circlePointer {
+  align-self: flex-end;
+  padding-bottom: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
