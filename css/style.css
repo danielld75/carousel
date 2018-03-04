@@ -34,45 +34,30 @@ ul li {
   justify-content: space-between;
 }
 
+.drivers img {
+  height: 24px;
+}
+
 .leftRow {
   display: flex;
   align-items: center;
-  width: 40px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
   height: 100%;
   margin-top: -20px;
   transition: all 0.3s;
 }
 
-.leftRow > strong {
-  text-align: center;
-}
-
 .leftRow:hover {
-  font-size: 1.2em;
   cursor: pointer;
 }
 
 .rightRow {
   display: flex;
   align-items: center;
-  width: 40px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
   height: 100%;
   margin-top: -20px;
   transition: all 0.3s;
 }
 
 .rightRow:hover {
-  font-size: 1.2em;
   cursor: pointer;
-}
-
-.circlePointer {
-  align-self: flex-end;
-  padding-bottom: 15px;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
 }
