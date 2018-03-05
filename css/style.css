@@ -13,13 +13,13 @@
   border: 15px solid white;
 }
 
-ul {
+.slides {
   padding: 0;
   margin: 0;
   width: 2000px;
 }
 
-ul li {
+.slides li {
   list-style: none;
   float: left;
   width: 400px;
@@ -61,3 +61,24 @@ ul li {
 .rightRow:hover {
   cursor: pointer;
 }
+
+.dots {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.dots .dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid thin black;
+  cursor: pointer;
+}
+.dots .dot:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+.dots .dot.active {
+  background-color: #000;
+}
+
